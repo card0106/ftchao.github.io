@@ -6,8 +6,8 @@ categories:
 ---
 
 ## 全局配置
-$ git config --global user.email "evenhuangchao@diditaxi.com.cn"
-$ git config --global user.name "Huangchao"
+$ git config --global user.email "ftchao@foxmail.com"
+$ git config --global user.name "ftchao"
 
 ## 克隆分支
 $ git clone git@xxxx/xxx.git ./svn/xxx
