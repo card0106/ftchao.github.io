@@ -1,0 +1,46 @@
+---
+layout: post
+title: "Git学习笔记"
+date: 2015-05-25
+categories:
+---
+
+## 全局配置
+$ git config --global user.email "evenhuangchao@diditaxi.com.cn"
+$ git config --global user.name "Huangchao"
+
+## 克隆分支
+$ git clone git@xxxx/xxx.git ./svn/xxx
+
+## 查看分支, -a 所有分支(远程)
+$ git branch
+$ git branch -a
+
+## 切换分支
+$ git checkout develop
+
+## 添加文件到仓库
+$ git add .
+$ git add filename
+
+## 推送到仓库
+$ git commit -m "fix: "
+
+## 推送到远程仓库
+$ git push origin develop
+
+## 拉取远程代码
+$ git pull origin develop
+
+## 合并develop分支
+$ git merge develop
+
+## 删除本地develop2分支
+$ git branch -d develop2
+
+## 删除远程develop2分支
+$ git branch -r -d origin/develop2
+$ git push origin :develop2
+
+## 建立分支
+$ git branch dev-xxx
